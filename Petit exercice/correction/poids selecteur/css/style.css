@@ -1,0 +1,39 @@
+/* Poids infini = !important */
+[data-test="test2"] {
+  background-color: yellow !important;
+}
+
+/* 1 + 10  */
+div.paragraphe {
+  background-color: purple;
+}
+
+/* ID => 100 points */
+#paragraphe1 {
+  background-color: aqua;
+}
+
+/* Class & selecteur d'attribut => 10 points */
+.paragraphe {
+  background-color: orange;
+}
+
+[data-test="test"] {
+  background-color: brown;
+}
+
+
+/* TAG => 1 points */
+p{
+  background-color: tomato;
+  color: white;
+  width: 500px;
+  margin: 50px auto;
+  padding: 10px;
+  text-align: justify;
+}
+
+
+.paragraphe.prout {
+  background-color: tomato;
+}

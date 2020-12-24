@@ -1,0 +1,11 @@
+.border {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(165, 61, 61);
+    margin: 20px auto;
+    border-top:  solid blue;
+    border-right: dashed violet;
+    border-bottom: thick pink;
+    border-left: inset green;
+
+}

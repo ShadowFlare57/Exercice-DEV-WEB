@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'DEV2';
+  src:url(../font/Roboto-Regular.ttf);
+}
+
+#font div {
+  border: 1px solid black;
+  width: 500px;
+  margin: 50px auto;
+  padding: 15px;
+  text-align: justify;
+}
+
+#first {
+  font-family: 'Langar', cursive;
+}
+
+#second {
+  font-family: DEV2;
+}
+
+#font #third {
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}

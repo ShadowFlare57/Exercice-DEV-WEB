@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Langar";
+    src: url(../font/Langar-Regular.ttf);
+
+}
+
+h1 {
+    text-align: center;
+    font-family: "Langar";
+    font-size: 100px;
+    color: black;
+}
+
+div {
+    margin:auto
+
+}
+
+.cube1 {
+    width: 1000px;
+    height: 1000px;
+    background-image: url(../img/cubebleu.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.cube2 {
+    margin: 100px;
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    background-image: url(../img/cuberouge.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cube3 {
+    margin: 100px;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-image: url(../img/cubevert.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cube4 {
+    margin: 100px;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/cubeviolet.jpg);
+    background-size: cover;
+    background-position: center;
+}

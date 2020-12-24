@@ -1,0 +1,23 @@
+#hatsune {
+  border: 1px solid black;
+  width: 400px;
+  margin: 50px auto;
+  height: 400px;
+  color: white;
+
+  /* url précise un link vers une image */
+  background-image: url(../img/diablo.jpg);
+  /* background-size : 
+    cover: recadre l'image dans la zone disponible
+    contain: contient l'image elle s'affiche entièrement dans la zone
+  */
+  background-size: cover;
+  background-position: center; /* permet de déplacer la position de l'image*/
+
+  background-repeat: no-repeat;
+
+  /* 
+    fixed: l'image ne scroll pas avec le reste de la page
+    background-attachment: fixed;
+  */
+}

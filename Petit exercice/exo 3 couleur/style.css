@@ -1,0 +1,15 @@
+ul {
+    color: blue;
+}
+
+li.verte {
+    color:green;
+}
+
+[name="hahaha"] {
+    color:orange;
+}
+
+#rose {
+    color:pink;
+}
