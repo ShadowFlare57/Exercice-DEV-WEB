@@ -1,0 +1,20 @@
+header {
+    margin: auto;
+    width: 1200px;
+    height: 600px;
+}
+
+.c1 {
+    padding: 20px;
+    background-color: indigo;
+}
+
+.c2 {
+    padding: 20px;
+    background-color: red;
+}
+.c3 {
+    padding: 20px;
+    background-color: lawngreen;
+}
+    
