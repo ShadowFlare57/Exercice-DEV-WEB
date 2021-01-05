@@ -1,0 +1,61 @@
+/* Header avec cochon d'inde en background pour le swag */
+header{
+    text-align: center;
+    padding: 20px;
+    background-image: url(img/cochondinde.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.anchor {
+    border: black solid 1px;
+    width: 100%;
+}
+h1 {
+    color: rgb(235, 8, 8);
+}
+/* pour avoir un menu jolie et sans puce qui fait moche */
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+}
+/* Texte aligné selon les instructions de l'exercice */
+#divpara {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
+}
+/* Le texte en gras ça le fait beaucoup mieux */
+#centre {
+    display: flex;
+    justify-content: space-between;
+    font-weight:  bold;
+   
+}
+h3 {
+    text-align: center;
+}
+/* Un des backgrounds de couleur utilisé (je sais plus quoi dire en commentaire) */
+main {
+    background-color: rgba(61, 43, 226, 0.514);
+    padding: 20px;
+}
+#aside1 {
+    background-color: brown;
+    width: 70%;
+}
+#aside2 {
+    background-color: chocolate;
+    width: 50%;
+}
+footer {
+    text-align: center;
+    background-color: rgb(247, 7, 187);
+}
+h2 {
+    margin: 0%;
+}
