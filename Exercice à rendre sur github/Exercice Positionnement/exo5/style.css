@@ -1,0 +1,51 @@
+div {
+    border: black solid 1px;
+    padding: 40px;
+    /* Mon c1 englobe l'intégralité de mes divs de c2 à c5 */
+}
+.c1 {
+    position: relative;
+    background-color: chocolate;
+    width: 400px;
+    height: 400px;
+    left: 33%;
+    box-sizing: content-box;
+
+    /* Cube en haut à gauche */
+}
+.c2 {
+    background-color: cornflowerblue;
+    position:absolute;
+    top: 30px;
+    left: 30px;
+    height: 15px;
+    width: 15px;
+
+    /* Cube en bas à gauche */
+}
+.c3 {
+    background-color: darkblue;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    height: 15px;
+    width: 15px;
+}
+    /* Cube en haut à droite */
+.c4 {
+    background-color: darkgoldenrod;
+    position:absolute;
+    top: 30px;
+    right: 30px;
+    height: 15px;
+    width: 15px;
+}
+    /* Cube en bas à droite */
+.c5 {
+    background-color: darkorchid;
+    position:absolute;
+    bottom: 30px;
+    right: 30px;
+    height: 15px;
+    width:15px;
+}
