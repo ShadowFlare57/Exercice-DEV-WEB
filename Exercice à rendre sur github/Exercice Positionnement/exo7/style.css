@@ -1,0 +1,44 @@
+    /* Création du background centrale */
+#container {
+    margin: auto;
+    border: black solid 1px;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+    /* Class div pour éviter le chevauchement avec l'utilisation de Float */
+.div {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    order: black solid 1px;
+
+    /* Cube Haut Gauche */
+}
+#c1 {
+    float: left;
+    background-color: rgb(69, 221, 49);
+}
+
+    /* Cube suivant se plaçant à côté grâce au div commun */
+#c2 {
+    float: left;
+    background-color: rgb(55, 11, 214);
+}
+#c3 {
+    float: left;
+    width: 400px;
+    background-color: orange;
+}
+
+    /* Inversion des couleurs pour correspondre à l'exercice et avoir le jaune tout à droite */
+#c4 {
+    float: right;
+    background-color: yellow;
+}
+#c5 {
+    float: right;
+    background-color: rgb(212, 207, 207);
+}
