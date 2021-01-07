@@ -1,0 +1,25 @@
+#container {
+    height: 5000px;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 30px;
+}
+nav a {
+    background-color: orange;
+
+}
+nav {
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+    float:left ;
+    background-color: chocolate;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+p{
+    padding: 40px;
+}
