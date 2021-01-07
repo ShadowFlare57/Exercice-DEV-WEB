@@ -1,0 +1,60 @@
+    /*  Création du background centrale */
+    #container{
+        margin: auto;
+        width: 600px;
+        height: 500px;
+}
+    /* Dimension du cube centrale */
+.c1 {
+    background-color: lightblue;
+    margin: auto;
+    border:black solid 1px;
+    width: 400px;
+    height: 400px;
+
+
+}
+    /* Cube le plus en haut à gauche */
+.c2 {
+    background-color: green;
+    position:relative;
+    top: 25px;
+    left: 40px;
+    width: 150px;
+    height: 150px;
+    border: black solid 1px;
+
+    
+}
+    /* Utilisation du rgba pour contrôler l'opacité et du Z-index pour le chevauchement */
+.c3 {
+    background-color: rgba(0, 0, 255, 0.342);
+    position: relative;
+    bottom: 90px;
+    left: 80px;
+    width: 150px;
+    height: 150px;
+    border: black solid 1px;
+    z-index: 5;
+}
+    
+.c4 {
+    background-color: brown;
+    position: relative;
+    bottom: 125px;
+    left: 200px;
+    width: 150px;
+    height: 150px;
+    border: black solid 1px;
+    z-index: 4;
+}
+    /* Si je met un commentaire sur Hatsune Miku j'peux gratter des points? */
+.c5 {
+    background-color: yellow;
+    position: relative;
+    bottom: 250px;
+    left: 220px;
+    width: 150px;
+    height: 150px;
+    border: black solid 1px;
+}

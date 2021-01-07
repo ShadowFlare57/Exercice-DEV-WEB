@@ -1,0 +1,12 @@
+body, html {
+    background-color: gray;
+}
+
+#container {
+    background-color: yellow;
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
