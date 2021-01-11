@@ -6,11 +6,9 @@
 nav ul {
     list-style: none;
     padding: 30px;
-}
-nav a {
-    background-color: orange;
 
 }
+
 nav {
     margin: 0px;
     position: sticky;
@@ -20,6 +18,6 @@ nav {
     border-radius: 30px;
     margin-right: 20px;
 }
-p{
+p {
     padding: 40px;
 }

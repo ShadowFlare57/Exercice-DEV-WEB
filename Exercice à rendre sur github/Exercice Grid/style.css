@@ -2,11 +2,136 @@ body, html {
     background-color: gray;
 }
 
-#container {
+ #container { 
     background-color: yellow;
     width: 400px;
     height: 400px;
     margin-top: 30px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+} 
+
+.box1 {
+
+}
+
+.box2 {
+
+}
+
+.box3 {
+
+}
+
+.box4 {
+
+}
+
+.box5 {
+
+}
+
+.box6 {
+
+
+}
+
+.box7 {
+
+}
+
+.box8 {
+
+}
+
+.box9 {
+
+}
+
+.box10 {
+
+}
+
+.box11 {
+
+}
+
+.box12 {
+
+}
+
+.box13 {
+
+}
+
+.box14 {
+
+}
+
+.box15 {
+
+}
+
+.box16 {
+    grid-area: 11 / 6 / span 3 / 6;
+    background-color: yellow;
+
+}
+
+.box17 {
+    grid-area: 14 / 6 / span 8 / 6;
+    background-color: yellow;
+}
+
+.box19 {
+    grid-area: 11 / 7 / span 3 / span 4;
+    background-color: red;
+}
+
+.box20 {
+    grid-area: 4 / 11 / span 7 / span 4;
+    background-color: yellow;
+}
+
+.box21 {
+    grid-area: 4 / 15 / span 7 / span 6;
+    background-color: red;
+}
+
+.box22 {
+    grid-area: 4 / 21 / span 7 / span 1;
+    background-color: red;
+}
+
+.box23 {
+    grid-area: 11 / 11 / span 3 / span 4;
+    background-color: blue;
+}
+
+.box24 {
+    grid-area: 11 / 15 / span 3 / span 6;
+    background-color: white;
+}
+
+.box25 {
+    grid-area: 11 / 21 / span 3 / span 1;
+    background-color: white;
+}
+
+.box26 {
+    grid-area: 14 / 7 / span 5 / span 7;
+    background-color: white;
+}
+
+.box27 {
+    grid-area: 14 / 14 / span 5 / span 4;
+    background-color: white;
+}
+
+.box28 {
+
+}
+
+.box29 {
+    
 }
