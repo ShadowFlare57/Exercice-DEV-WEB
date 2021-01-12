@@ -1,0 +1,13 @@
+.gruik {
+    background-color: grey;
+    text-align: center;
+    overflow: auto;
+
+}
+
+
+
+
+img:hover + p {
+    transition: top 1s 1s;
+}

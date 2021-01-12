@@ -2,136 +2,191 @@ body, html {
     background-color: gray;
 }
 
+h1 {
+    text-align: center;
+}
  #container { 
-    background-color: yellow;
-    width: 400px;
-    height: 400px;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto; 
-} 
+    width: 600px;
+    height:500px;
+    margin:auto;
+    display: grid;
+    border: black solid 5px;
+    /* Architecture du Mondrian */
+    grid-template-areas: 
+    'white1 white2 white2 white2 white2 white2 white2 white3 white3 white3 white3 white3 white4 yellow1'
+    'white1 blue1 blue1 blue1 blue1 blue1 blue1 white5 white5 blue2 blue2 blue2 white4 yellow1'
+    'white1 blue1 blue1 blue1 blue1 blue1 blue1 white5 white5 blue2 blue2 blue2 white4 yellow1'
+    'black1 white6 white6 black2 white7 white7 white8 yellow2 yellow2 red1 red1 red2 white4 yellow1'
+     'black1 white6 white6 black2 white7 white7 white8 yellow2 yellow2 red1 red1 red2 white4 yellow1'
+    'black1 white6 white6 black2 white7 white7 white8 yellow2 yellow2 red1 red1 red2 white4 yellow1'
+     'black1 white6 white6 black2 white7 white7 white8 yellow2 yellow2 red1 red1 red2 white4 yellow1'
+    'black1 white6 white6 black2 white7 white7 white8 yellow2 yellow2 red1 red1 red2 white4 yellow1'
+     'black1 white6 white6 black2 white7 white7 white8 yellow2 yellow2 red1 red1 red2 white4 yellow1'
+    'black1 white6 white6 black2 white7 white7 white8 yellow2 yellow2 red1 red1 red2 white4 yellow1'
+    'black1 white6 white6 black2 white7 white7 white8 yellow2 yellow2 red1 red1 red2 white4 yellow1'
+    'black1 white6 white6 black2 yellow3 red3 red3 blue3 blue3 white9 white9 white10 black3 black3'
+    'white11 red4 red4 black2 yellow4 white12 white12 white12 white13 white13 blue4 yellow5 white14 white14'
+    'white11 red4 red4 black2 yellow4 white12 white12 white12 white13 white13 blue4 yellow5 white14 white14'
+    'white11 red4 red4 black2 yellow4 white12 white12 white12 white13 white13 blue4 yellow5 white14 white14'
+    'white11 red4 red4 black2 yellow4 white12 white12 white12 white13 white13 blue4 yellow5 white14 white14'
+    'white11 red4 red4 black2 yellow4 red5 red5 black4 black4 black4 white16 white16 white16 white16'
+    'white15 white15 white15 white15 yellow4 red5 red5 black4 black4 black4 white16 white16 white16 white16';
+ }
+/* Gain de temps considérable vu la quantité de "box" que j'ai */
+.white {
+    border: black solid 5px;
+    background-color: #e6e6e6;
+}
+.yellow {
+    border: black solid 5px;
+    background-color: #efbc0e;
+}
+.blue {
+    border: black solid 5px;
+    background-color: #0f036c;
+}
+.black {
+    border: black solid 5px;
+    background-color: black;
+}
+.red {
+    border: black solid 5px;
+    background-color:  #c80707;
+}
+/* Toute les cases du Mondrian sont défini selon le grid-template-areas */
+#box1 {
+    grid-area: white1;
+}
 
-.box1 {
+#box2 {
+    grid-area: white2;
+}
+
+#box3 {
+    grid-area: white3;
+}
+
+#box4 {
+    grid-area: white4;
 
 }
 
-.box2 {
-
+#box5 {
+    grid-area:yellow1;
 }
 
-.box3 {
-
+#box6 {
+    grid-area: blue1;
 }
 
-.box4 {
-
+#box7 {
+    grid-area:white5;
 }
 
-.box5 {
-
+#box8 {
+    grid-area: blue2;
 }
 
-.box6 {
-
-
+#box9 {
+    grid-area: black1;
 }
 
-.box7 {
-
+#box10 {
+    grid-area:white6;
 }
 
-.box8 {
-
+#box11 {
+    grid-area: black2;
 }
 
-.box9 {
-
+#box12 {
+    grid-area: white7;
 }
 
-.box10 {
-
+#box13 {
+    grid-area: white8;
 }
 
-.box11 {
-
+#box14 {
+    grid-area: yellow2;
 }
 
-.box12 {
-
+#box15 {
+    grid-area: red1;
 }
 
-.box13 {
-
+#box16 {
+    grid-area: red2;
 }
 
-.box14 {
-
-}
-
-.box15 {
-
-}
-
-.box16 {
-    grid-area: 11 / 6 / span 3 / 6;
-    background-color: yellow;
-
-}
-
-.box17 {
-    grid-area: 14 / 6 / span 8 / 6;
-    background-color: yellow;
-}
-
-.box19 {
-    grid-area: 11 / 7 / span 3 / span 4;
-    background-color: red;
-}
-
-.box20 {
-    grid-area: 4 / 11 / span 7 / span 4;
-    background-color: yellow;
-}
-
-.box21 {
-    grid-area: 4 / 15 / span 7 / span 6;
-    background-color: red;
-}
-
-.box22 {
-    grid-area: 4 / 21 / span 7 / span 1;
-    background-color: red;
-}
-
-.box23 {
-    grid-area: 11 / 11 / span 3 / span 4;
-    background-color: blue;
-}
-
-.box24 {
-    grid-area: 11 / 15 / span 3 / span 6;
-    background-color: white;
-}
-
-.box25 {
-    grid-area: 11 / 21 / span 3 / span 1;
-    background-color: white;
-}
-
-.box26 {
-    grid-area: 14 / 7 / span 5 / span 7;
-    background-color: white;
-}
-
-.box27 {
-    grid-area: 14 / 14 / span 5 / span 4;
-    background-color: white;
-}
-
-.box28 {
-
-}
-
-.box29 {
+#box17 {
+    grid-area: yellow3;
     
+}
+
+#box18 {
+    grid-area: red3;
+}
+#box19 {
+    grid-area: blue3;
+}
+
+#box20 {
+    grid-area: white9;
+}
+
+#box21 {
+    grid-area: white10;
+}
+
+#box22 {
+    grid-area: black3;
+}
+
+#box23 {
+    grid-area: white11;
+}
+
+#box24 { 
+    grid-area: red4;
+}
+
+#box25 {
+    grid-area: yellow4;
+}
+
+#box26 {
+    grid-area: white12;
+}
+
+#box27 {
+    grid-area: white13;
+}
+
+#box28 {
+    grid-area: blue4;
+}
+
+#box29 {
+    grid-area: yellow5;
+}
+
+#box30 {
+    grid-area: white14;
+}
+
+#box31 {
+    grid-area: white15;
+}
+
+#box32 {
+    grid-area: red5;
+}
+
+#box33 {
+    grid-area: black4;
+}
+
+#box34 {
+    grid-area: white16;
 }
