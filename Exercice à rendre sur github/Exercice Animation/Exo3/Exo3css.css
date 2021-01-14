@@ -5,7 +5,7 @@ html {
 h1 {
     text-align: center;
 }
-.page {
+.Page {
     width: 800px;
     height: 600px;
     border-radius: 20px;
@@ -15,4 +15,71 @@ h1 {
     align-items: center;
     text-align: center;
     margin: auto;
+}
+
+.balle {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border: black solid 1px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    font-weight: bold;
+}
+.balle1 {
+    background-color: black;
+    animation-name: chargement1;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+.balle2 {
+    background-color:gray;
+    animation-name: chargement2;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-direction: normal;
+}
+.balle3 {
+    background-color: whitesmoke;
+    animation-name: chargement3;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+
+@keyframes chargement1 {
+    from {
+        background-color: black;
+    }
+    to {
+        background-color: whitesmoke;
+    }
+}
+@keyframes chargement2 {
+    0% {
+        background-color: gray;
+    }
+    50% {
+        background-color: black;
+    }
+    100% {
+        background-color: whitesmoke;
+    }
+}
+@keyframes chargement3 {
+    from {
+        background-color: whitesmoke;
+    }
+    to {
+        background-color: black;
+    }
 }
