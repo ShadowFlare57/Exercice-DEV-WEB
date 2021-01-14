@@ -15,7 +15,7 @@ header{
 h1 {
     color: rgb(235, 8, 8);
 }
-/* pour avoir un menu jolie et sans puce qui fait moche */
+/* pour avoir un menu joli et sans puce qui fait moche */
 nav {
     display: flex;
     justify-content: space-between;
