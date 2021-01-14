@@ -1,0 +1,85 @@
+html {
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+}
+.page {
+    width: 800px;
+    height: 600px;
+    border-radius: 20px;
+    border: black solid 1px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+.tube {
+    width: 60px;
+    height: 300px;
+    border:darkgreen solid 1px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+.balle {
+    position: relative;
+    top: -130px;
+    border: black solid 1px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: darkgreen;
+    animation-name: rebond;
+    animation-delay: 0s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes rebond {
+    0% {
+        top: -130px;
+    }
+    10% {
+        top: 130px;
+    }
+    20% {
+        top: 60px;
+    }
+    30% {
+        top: 130px;
+    }
+    40% {
+        top: 75px;
+    }
+    50% {
+        top: 130px;
+    }
+    60% {
+        top: 90px;
+    }
+    70% {
+        top: 130px;
+    }
+    80% {
+        top: 105px;
+    }
+    90% {
+        top: 130px;
+    }
+    95% {
+        top: 120px;
+    }
+    100% {
+        top: -130px;
+    }
+
+
+
+
+}
+
