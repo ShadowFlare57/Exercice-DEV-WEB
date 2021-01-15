@@ -6,8 +6,8 @@ h1 {
     text-align: center;
 }
 .page {
-    width: 800px;
-    height: 600px;
+    width: 1750px;
+    height: 800px;
     border-radius: 20px;
     border: black solid 1px;
     justify-content: center;
@@ -15,4 +15,97 @@ h1 {
     align-items: center;
     text-align: center;
     margin: auto;
+    perspective: 800px;
+}
+.move {
+    position: relative;
+    transform-style: preserve-3d;
+    animation-name: rotation, gruik;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.carre {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: black solid 1px;
+    border-radius: 10px;
+}
+.carre3d:nth-child(1) {
+    background-color: rgba(165, 42, 42, 0.479);
+    transform: rotateY(0deg) translateZ(200px);
+
+}
+.carre3d:nth-child(2) {
+    background-color: rgba(0, 0, 255, 0.438);
+    transform: rotateY(45deg) translateZ(200px);
+}
+.carre3d:nth-child(3) {
+    background-color: rgba(255, 217, 0, 0.452);
+    transform: rotateY(90deg) translateZ(200px);
+}
+.carre3d:nth-child(4) {
+    background-color: rgba(245, 245, 245, 0.452);
+    transform: rotateY(135deg) translateZ(200px);
+}
+.carre3d:nth-child(5) {
+    background-color: rgba(0, 100, 0, 0.466);
+    transform: rotateY(180deg) translateZ(200px);
+}
+.carre3d:nth-child(6) {
+    background-color: rgba(71, 61, 139, 0.459);
+    transform: rotateY(225deg) translateZ(200px);
+}
+.carre3d:nth-child(7) {
+    background-color: rgba(255, 0, 0, 0.452);
+    transform: rotateY(270deg) translateZ(200px);
+}
+.carre3d:nth-child(8) {
+    background-color: rgba(0, 255, 255, 0.432);
+    transform: rotateY(315deg) translateZ(200px);
+}
+@keyframes rotation {
+    from {
+        transform: rotatey(0deg) rotatex(0)
+    }
+    to {
+        transform: rotatey(360deg) rotatex(360deg) rotatez(360deg);
+    }
+}
+@keyframes gruik {
+    0% {
+        top: -150px;
+        left: -600px;
+    }
+    25% {
+        top: -150px;
+        left: -600px;
+    }
+    40% {
+        top: -150px;
+        left: 600px;
+                
+    }
+    50% {
+        top: -150px;
+        left: 600px;
+    }
+    60% {
+        top: 150px;
+        left: 600px;
+    }   
+    75% {
+        top: 150px;
+        left: 600px;
+    }
+    85% {
+        top: 150px;
+        left: -600px;
+    }
+
+    100% {
+        top: 150px;
+        left: -600px;
+    }
+
 }
