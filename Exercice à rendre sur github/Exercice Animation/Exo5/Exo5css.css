@@ -21,8 +21,9 @@ h1 {
     position: relative;
     transform-style: preserve-3d;
     animation-name: rotation, gruik;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 .carre {
     position: absolute;
@@ -66,7 +67,7 @@ h1 {
 }
 @keyframes rotation {
     from {
-        transform: rotatey(0deg) rotatex(0)
+        transform: rotate(0);
     }
     to {
         transform: rotatey(360deg) rotatex(360deg) rotatez(360deg);
