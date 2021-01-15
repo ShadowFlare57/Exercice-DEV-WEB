@@ -21,7 +21,7 @@ h1 {
     position: relative;
     transform-style: preserve-3d;
     animation-name: rotation, gruik;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
 }
 .carre {

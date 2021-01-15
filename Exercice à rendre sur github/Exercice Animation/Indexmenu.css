@@ -1,23 +1,31 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-#menu {
-  width: 430px;
-  height: 400px;
-  margin: 50px auto;
+html {
   background-color: gray;
+}
+.page {
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  padding: 30px;
-  border-radius: 30px;
+  display: flex;
+}
+.menu {
+  list-style:none;
+  padding:10px;
+  font-size:20px;
+  text-decoration:none;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  height: 50px;
+  transition: height 3s;
+  background-color: lightblue;
 }
 
-#menu ul {
+a {
   list-style: none;
-  padding: 0;
+  line-height:44px;
+  float:left;
 }
 
-#menu h1 {
-  margin-bottom: 30px;
+.menu:hover {
+  height: 800px; 
 }
