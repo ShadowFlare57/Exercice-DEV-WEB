@@ -7,6 +7,7 @@ html {
   text-align: center;
   display: flex;
 }
+/* J'ai cumulé l'index à l'exo 6, autant joindre l'utile à l'agréable, une simple combinaison de : transition en hauteur de 3 secondes + hover sans oublier le overflow:hidden sur le menu suffit */
 .menu {
   list-style:none;
   padding:10px;

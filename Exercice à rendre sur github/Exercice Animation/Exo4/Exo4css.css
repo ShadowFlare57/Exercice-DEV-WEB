@@ -25,7 +25,7 @@ h1 {
     animation-duration: 7s;
     animation-iteration-count: infinite;
   }
-  
+    /* J'ai utilisé le nth-child pour montrer que je le maîtrise, je l'avais pas fait jusqu'à présent */
   .carreCourse:nth-child(1) {
     background-color: tomato;
   }

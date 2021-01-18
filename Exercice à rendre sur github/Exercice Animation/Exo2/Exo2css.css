@@ -16,6 +16,7 @@ h1 {
     margin: auto;
     display: flex;
 }
+/* J'ai essayé de prendre des noms de classe qui coule de source, mais dans le doute "le tube c'est le rectangle vert ou il y a la balle */
 .tube {
     width: 60px;
     height: 300px;
@@ -40,6 +41,7 @@ h1 {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+/*  J'ai essayé d'avoir un rebond aussi smooth que possible mais c'est un peu dégueu comme rendu, désolé :/*/
 @keyframes rebond {
     0% {
         top: -130px;

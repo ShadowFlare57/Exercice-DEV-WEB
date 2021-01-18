@@ -32,6 +32,7 @@ h1 {
     border: black solid 1px;
     border-radius: 10px;
 }
+ /* ça dépasse un peu du cadre, je sais pas si ça impact la note, au pire j'suis habitué au truc moche xD  */
 .carre3d:nth-child(1) {
     background-color: rgba(165, 42, 42, 0.479);
     transform: rotateY(0deg) translateZ(200px);
@@ -65,6 +66,7 @@ h1 {
     background-color: rgba(0, 255, 255, 0.432);
     transform: rotateY(315deg) translateZ(200px);
 }
+/* J'ai utilisé 2 animations pour avoir ce rendu, je sais pas si il y a moyen de le faire en une fois, j'ai essayé mais pas réussi */
 @keyframes rotation {
     from {
         transform: rotate(0);
