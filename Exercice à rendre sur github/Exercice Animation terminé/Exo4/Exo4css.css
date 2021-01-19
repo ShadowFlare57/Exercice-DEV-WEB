@@ -1,0 +1,82 @@
+html {
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+}   
+.carreMini {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.page {
+    border: 1px solid black;
+    height: 200px;
+    position: relative;
+  }
+  
+.carreCourse {
+    position: absolute;
+    top:0;
+    left: 0;
+    animation-name: course;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+  }
+    /* J'ai utilisé le nth-child pour montrer que je le maîtrise, je l'avais pas fait jusqu'à présent */
+  .carreCourse:nth-child(1) {
+    background-color: tomato;
+  }
+  
+  .carreCourse:nth-child(2) {
+    animation-delay: 1s;
+    background-color: pink;
+  }
+  
+  .carreCourse:nth-child(3) {
+    animation-delay: 2s;
+    background-color: lightblue;
+  }
+  
+  .carreCourse:nth-child(4) {
+    animation-delay: 4s;
+    background-color: lightgreen;
+  }
+  .carreCourse:nth-child(5) {
+    animation-delay: 5s;
+    background-color: blue;
+  }
+  .carreCourse:nth-child(6) {
+    animation-delay: 6s;
+    background-color: violet;
+  }
+  
+  
+  @keyframes course {
+    0% {
+      top:0;
+      left:0;
+    }
+    30% {
+      top: 0;
+      left: 1880px;
+      transform: rotate(90deg);
+    }
+    50% {
+      top:178px;
+      left:1880px;
+      transform: rotate(180deg);
+    }
+    80% {
+      top:178px;
+      left:0;
+      transform: rotate(270deg);
+    }
+    100%{
+      top: 0;
+      left: 0;
+      transform: rotate(360deg);
+    }
+  }
