@@ -1,3 +1,246 @@
 html {
     background-color: gray;
 }
+body {
+    margin: 0;
+}
+/* Au dessus du header */
+#frontheader1 {
+    display: flex;
+    top: 0;
+    width: 100%;
+    padding: 5px;
+    justify-content: space-between;
+    text-align: center;
+    background-color: gray;
+
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+#menuburger {
+    position: relative;
+    right: 30px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+span {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 4px;
+    background-color: black;
+}
+span::after,span::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: black;
+}
+span::after{
+    transform: translateY(-10px);
+}
+span::before{
+    transform: translateY(10px);
+}
+#nav1{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: -100vw;
+    width: 110vw;
+}
+nav a{
+    text-decoration: none;
+    color: brown;
+}
+#menuburger:hover #nav1{
+    display: flex;
+}
+#frontheader2{
+    margin-top: 70px;
+    text-align: center;
+}
+#nav2{
+    display: none;
+}
+h2{
+    text-align: start;
+    padding-left: 10px;
+}
+p{
+    padding: 20px;
+    text-align: justify;
+}
+/* Partie Article */
+.art{
+    height: 500px;
+    border: solid 1px black;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.art div{
+    height: 100%;
+    border: black 1px solid;
+    border-radius: 20px;
+}
+.art img{
+    margin:20px;
+    float: left;
+}
+.container>div{
+    box-sizing: border-box;
+    float: left;
+}
+.container::after{
+    clear: both;
+    content: "";
+}
+/* Utilisation des class responsives en fonction de la taille de l'écran sm = small / md = medium / lg = large (je sais que tu sais mais c'est pour la lisibilité ^^) */
+@media screen and (min-width : 700px){
+    .col-sm-1{
+        width: calc(100% / 12);
+    }
+    .col-sm-2{
+        width: calc(200% / 12);
+    }
+    .col-sm-3{
+        width: calc(300% / 12);
+    }
+    .col-sm-4{
+        width: calc(400% / 12);
+    }
+    .col-sm-5{
+        width: calc(500% / 12);
+    }
+    .col-sm-6{
+        width: calc(600% / 12);
+    }
+    .col-sm-7{
+        width: calc(700% / 12);
+    }
+    .col-sm-8{
+        width: calc(800% / 12);
+    }
+    .col-sm-9{
+        width: calc(900% / 12);
+    }
+    .col-sm-10{
+        width: calc(1000% / 12);
+    }
+    .col-sm-11{
+        width: calc(1100% / 12);
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+}
+@media screen and (min-width : 900px){
+    .col-md-1{
+        width: calc(100% / 12);
+    }
+    .col-md-2{
+        width: calc(200% / 12);
+    }
+    .col-md-3{
+        width: calc(300% / 12);
+    }
+    .col-md-4{
+        width: calc(400% / 12);
+    }
+    .col-md-5{
+        width: calc(500% / 12);
+    }
+    .col-md-6{
+        width: calc(600% / 12);
+    }
+    .col-md-7{
+        width: calc(700% / 12);
+    }
+    .col-md-8{
+        width: calc(800% / 12);
+    }
+    .col-md-9{
+        width: calc(900% / 12);
+    }
+    .col-md-10{
+        width: calc(1000% / 12);
+    }
+    .col-md-11{
+        width: calc(1100% / 12);
+    }
+    .col-md-12{
+        width: 100%;
+    }
+    .gruik {
+        transform: translateX(50%);
+        width: 450px;
+    }
+    #frontheader1{
+        display: none;
+    }
+    #frontheader2{
+        margin-top: 0;
+    }
+    #nav2{
+        display: flex;
+        justify-content: space-around;
+        border-radius: 50%;
+    }
+    #nav2 a{
+        width: 100px;
+        border: 1px solid black;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+}
+@media screen and (min-width : 1200px){
+    .col-lg-1{
+        width: calc(100% / 12);
+    }
+    .col-lg-2{
+        width: calc(200% / 12);
+    }
+    .col-lg-3{
+        width: calc(300% / 12);
+    }
+    .col-lg-4{
+        width: calc(400% / 12);
+    }
+    .col-lg-5{
+        width: calc(500% / 12);
+    }
+    .col-lg-6{
+        width: calc(600% / 12);
+    }
+    .col-lg-7{
+        width: calc(700% / 12);
+    }
+    .col-lg-8{
+        width: calc(800% / 12);
+    }
+    .col-lg-9{
+        width: calc(900% / 12);
+    }
+    .col-lg-10{
+        width: calc(1000% / 12);
+    }
+    .col-lg-11{
+        width: calc(1100% / 12);
+    }
+    .col-lg-12{
+        width: 100%;
+    }
+    .gruik {
+        transform: none;
+    }
+}

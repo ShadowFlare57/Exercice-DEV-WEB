@@ -80,7 +80,7 @@ footer {
     font-size: 30px;
     font-weight: bold;
 }
-
+/* la classe gruik correspond au texte apparaissant tout à gauche, à savoir les jours de la semaine */
 #gruik {
     padding-top: 50px;
 }
