@@ -7,6 +7,7 @@ body {
     border: black solid 1px;
     margin:auto;
 }
+/* J'ai fait l'exo à l'envers comme un c**, du coup j'avais la vue mobile de base et j'ai joué sur les break points pour avoir le même rendu */
 header {
     color:#0a6daa;
     justify-content: space-around;
