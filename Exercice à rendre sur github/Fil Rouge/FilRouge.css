@@ -1,0 +1,57 @@
+body {
+    border: lightseagreen solid 10px;
+    width: 1200px;
+    height: 1070px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+/* Utilisation de la position relative pour placer la photo et le texte */
+#imgmiku {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 950px;
+    top: 100px;
+}
+
+.Pheader {
+    position: relative;
+    top: -150px;
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 30px;
+}
+/* Utilisation du flex pour aligner le menu d'accès rapide à l'horizontale  */
+.navheader {
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: lightseagreen solid 10px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+.Formation {
+   padding-left: 20px; 
+   color: lightseagreen;
+}
+h2 {
+    text-align: center;
+}
+#pformation {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+footer {
+    text-align: center;
+    border-top: lightseagreen solid 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
