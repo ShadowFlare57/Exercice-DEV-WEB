@@ -1,11 +1,13 @@
 body {
     border: lightseagreen solid 10px;
     width: 1200px;
-    height: 1070px;
+    height: 1150px;
     margin: auto;
 }
 h1 {
     text-align: center;
+    color: lightseagreen;   
+    text-shadow: 5px 5px 5px pink;
 }
 /* Utilisation de la position relative pour placer la photo et le texte */
 #imgmiku {
@@ -14,6 +16,7 @@ h1 {
     height: 200px;
     left: 950px;
     top: 100px;
+    box-shadow: lightseagreen 5px 5px 50px;
 }
 
 .Pheader {
@@ -53,5 +56,6 @@ footer {
     text-align: center;
     border-top: lightseagreen solid 10px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
+    
 }
